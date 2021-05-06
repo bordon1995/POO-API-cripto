@@ -1,0 +1,71 @@
+body {
+  width: 100%;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+.header {
+  width: 90%;
+}
+.header__imagen {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 300px;
+}
+main {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.tabla {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+.tabla__columnas {
+  border-bottom: 2px solid gray;
+  padding-bottom: 5px;
+}
+.tabla__filas {
+  padding: 5px;
+  border-bottom: 2px solid gray;
+}
+.tabla__imagenes {
+  width: auto;
+  height: auto;
+  max-width: 30px;
+  max-height: 30px;
+}
+.posicion {
+  position: relative;
+}
+.absoluto {
+  position: absolute;
+  bottom: 10px;
+  padding-left: 5px;
+}
+i {
+  position: relative;
+}
+.p {
+  position: absolute;
+  bottom: -15px;
+  left: 15px;
+}
+.precioDown {
+  width: 100px;
+  background-color: #dc2b14;
+}
+.precioDownSecondFormat {
+  color: red;
+}
+.precioUp {
+  width: 100px;
+  background-color: #5eb63a;
+}
+.precioUpSecondFormat {
+  color: green;
+}
